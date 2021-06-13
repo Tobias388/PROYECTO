@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
 	<meta charset="UTF-8">
@@ -21,9 +21,9 @@
 				<img src="../../static/icons/menu-icon.png" alt="" class="btn-menu">
 			</div>
 			<ul class="menu" id="menu">
-				<span>
+				<a href="index.html">
 					<li class="menu-item" id="btn-home">HOME</li>
-				</span>
+				</a>
 				<span>
 					<li class="menu-item" id="btn-giftcard">GIFT CARDS</li>
 				</span>
@@ -42,15 +42,15 @@
 				<li class="slider-item"><img src="../../static/images/slider-img3.jpg" alt="" class="slider-img"></li>
 				<li class="slider-item"><img src="../../static/images/slider-img4.jpg" alt="" class="slider-img"></li>
 			</ul>
-			<div class="h1">
+			<span class="h1">
 				<h1 class="h1-item">TITULO</h1>
-			</div>
+			</span>
 		</div>
 	</header>
 
-	<div class="h2">
+	<span class="h2">
 		<h2 class="h2-item">GIFT CARDS</h2>
-	</div>
+	</span>
 
 	<section class="giftcard-container">
 		<div class="giftcard" id="giftcard-1">
@@ -67,19 +67,19 @@
 			</span>
 		</div>
 
-		<div class="popup-1" id="popup-1">
+		<div class="popup" id="popup-1">
 			<div class="close" id="close">
 				<img src="../../static/icons/close.png" alt="" class="close-img">
 			</div>
-			<div class="giftcard-popup-1">
-				<span class="giftcard-h2-popup-1">
-					<h2 class="giftcard-h2-item-popup-1" id="giftcard-h2-item-popup-1">XBOX</h2>
+			<div class="giftcard-popup">
+				<span class="giftcard-h2-popup">
+					<h2 class="giftcard-h2-item-popup" id="giftcard-h2-item-popup-1">XBOX</h2>
 				</span>
-				<span class="giftcard-img-popup-1">
-					<img src="../../static/icons/giftcards/giftcard-xbox.png" alt="" class="giftcard-img-item-popup-1 active">
+				<span class="giftcard-img-popup">
+					<img src="../../static/icons/giftcards/giftcard-xbox.png" alt="" class="giftcard-img-item-popup active">
 				</span>
 				<span>
-					<p class="giftcard-p-popup-1" id="giftcard-p-popup-1">
+					<p class="giftcard-p-popup" id="giftcard-p-popup-1">
 						1000$
 					</p>
 				</span>
@@ -87,8 +87,8 @@
 			<div class="description-popup">
 				<form action="" id="form">
 					<div class="amount-container">
-						<h3 class="amount-container-item-h3" id="amount-container-item-h3">CANTIDAD</h3>
-						<input type="number" class="amount-container-item-input" id="amount-container-item-input">
+						<h3 class="amount-container-item-h3-popup" id="amount-container-item-h3-popup-1">CANTIDAD</h3>
+						<input type="number" class="amount-container-item-input-popup" id="amount-container-item-input-popup-1">
 					</div>
 					<div class="method-pay">
 						<button class="method-btn" id="method-btn-1">PayPal</button>
@@ -98,7 +98,7 @@
 			</div>
 		</div>
 
-		<div class="giftcard">
+		<div class="giftcard" id="giftcard-2">
 			<span class="giftcard-h2">
 				<h2 class="giftcard-h2-item">XBOX</h2>
 			</span>
@@ -112,7 +112,38 @@
 			</span>
 		</div>
 
-		<div class="giftcard">
+		<div class="popup" id="popup-2">
+			<div class="close" id="close-2">
+				<img src="../../static/icons/close.png" alt="" class="close-img">
+			</div>
+			<div class="giftcard-popup">
+				<span class="giftcard-h2-popup">
+					<h2 class="giftcard-h2-item-popup" id="giftcard-h2-item-popup-2">XBOX</h2>
+				</span>
+				<span class="giftcard-img-popup">
+					<img src="../../static/icons/giftcards/giftcard-xbox.png" alt="" class="giftcard-img-item-popup active">
+				</span>
+				<span>
+					<p class="giftcard-p-popup" id="giftcard-p-popup-2">
+						2000$
+					</p>
+				</span>
+			</div>
+			<div class="description-popup">
+				<form action="" id="form">
+					<div class="amount-container">
+						<h3 class="amount-container-item-h3-popup" id="amount-container-item-h3-popup-2">CANTIDAD</h3>
+						<input type="number" class="amount-container-item-input-popup" id="amount-container-item-input-popup-2">
+					</div>
+					<div class="method-pay">
+						<button class="method-btn" id="method-btn-3">PayPal</button>
+						<button class="method-btn" id="method-btn-4">Mercadopago</button>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div class="giftcard" id="giftcard-3">
 			<span class="giftcard-h2">
 				<h2 class="giftcard-h2-item">XBOX</h2>
 			</span>
@@ -127,11 +158,42 @@
 		</div>
 	</section>
 
+	<div class="popup" id="popup-3">
+		<div class="close" id="close-3">
+			<img src="../../static/icons/close.png" alt="" class="close-img">
+		</div>
+		<div class="giftcard-popup">
+			<span class="giftcard-h2-popup">
+				<h2 class="giftcard-h2-item-popup" id="giftcard-h2-item-popup-3">XBOX</h2>
+			</span>
+			<span class="giftcard-img-popup">
+				<img src="../../static/icons/giftcards/giftcard-xbox.png" alt="" class="giftcard-img-item-popup active">
+			</span>
+			<span>
+				<p class="giftcard-p-popup" id="giftcard-p-popup-3">
+					2500$
+				</p>
+			</span>
+		</div>
+		<div class="description-popup">
+			<form action="" id="form">
+				<div class="amount-container">
+					<h3 class="amount-container-item-h3-popup" id="amount-container-item-h3-popup-3">CANTIDAD</h3>
+					<input type="number" class="amount-container-item-input-popup" id="amount-container-item-input-popup-3">
+				</div>
+				<div class="method-pay">
+					<button class="method-btn" id="method-btn-5">PayPal</button>
+					<button class="method-btn" id="method-btn-6">Mercadopago</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
 	<div class="overlay" id="overlay"></div>
 
-	<div class="h2">
+	<span class="h2">
 		<h2 class="h2-item">CONTACTANOS VIA:</h2>
-	</div>
+	</span>
 
 	<section class="contactUs-container">
 		<ul class="contactUs">
@@ -163,9 +225,9 @@
 	</section>
 
 	<footer class="footer">
-		<div class="footer-p-container">
+		<span class="footer-p-container">
 			<p class="footer-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat hic ipsa quia, expedita quis iure nisi praesentium, dolore tempore quod distinctio laborum tenetur illo animi nostrum. Officiis, quia molestiae odit.</p>
-		</div>
+		</span>
 		<div class="social-media-container">
 			<ul class="social-media">
 				<a href="">
@@ -185,3 +247,4 @@
 	<script src="../../static/scripts/smooth.js"></script>
 	<script src="../../static/scripts/popups.js"></script>
 </body></html>
+
