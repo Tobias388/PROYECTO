@@ -242,12 +242,12 @@ a {
 	z-index: 2000;
 }
 
-.popup-1 {
+.popup {
 	visibility: hidden;
 	position: fixed;
 	top: 0;
 	left: 0;
-	transform: translate(50%, 50%) scale(.7);
+	transform: translate(34%, 34%) scale(0.7);
 	width: 60%;
 	height: 60%;
 	background: #000000;
@@ -258,19 +258,19 @@ a {
 	align-items: center;
 }
 
-.popup-1.active {
+.popup.active {
 	animation: open .7s ease .1s forwards;
 }
 
 @keyframes open {
 	from {
 		visibility: hidden;
-		transform: translate(20%, 20%) scale(.7);
+		transform: translate(34%, 34%) scale(0.7);
 	}
 	
 	to {
 		visibility: visible;
-		transform: translate(30%, 30%) scale(1);
+		transform: translate(34%, 34%) scale(1);
 	}
 }
 
@@ -290,31 +290,31 @@ a {
 	opacity: .7;
 }
 
-.giftcard-popup-1 {
+.giftcard-popup {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 
-.giftcard-h2-item-popup-1 {
+.giftcard-h2-item-popup {
 	color: #ffffff;
 	font-family: sans-serif;
 	font-weight: bold;
 	opacity: 0;
 }
 
-.giftcard-h2-item-popup-1.active {
+.giftcard-h2-item-popup.active {
 	animation: aparicion .5s ease .7s forwards;
 }
 
-.giftcard-img-popup-1 {
+.giftcard-img-popup {
 	width: 30%;
 	border-radius: .625rem;
 	text-align: center;
 }
 
-.giftcard-img-item-popup-1 {
+.giftcard-img-item-popup {
 	width: 85%;
 	border: .2rem solid #ffffff;
 	border-radius: 10%;
@@ -322,7 +322,7 @@ a {
 	transform: translateY(-5%);
 }
 
-.giftcard-img-item-popup-1.active {
+.giftcard-img-item-popup.active {
 	animation: levitacion 1s ease 1s infinite;
 	animation-direction: alternate;
 }
@@ -337,7 +337,7 @@ a {
 	}	
 }
 
-.giftcard-p-popup-1 {
+.giftcard-p-popup {
 	color: #ffffff;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -345,7 +345,7 @@ a {
 	opacity: 0;
 }
 
-.giftcard-p-popup-1.active {
+.giftcard-p-popup.active {
 	animation: aparicion .5s ease 1s forwards;
 }
 
@@ -367,7 +367,7 @@ a {
 	flex-direction: column;
 }
 
-.amount-container-item-h3{
+.amount-container-item-h3-popup{
 	color: #ffffff;
 	text-align: center;
 	font-family: sans-serif;
@@ -375,11 +375,11 @@ a {
 	opacity: 0;
 }
 
-.amount-container-item-h3.active {
+.amount-container-item-h3-popup.active {
 	animation: aparicion .5s ease 1.3s forwards;
 }
 
-.amount-container-item-input {
+.amount-container-item-input-popup {
 	width: 20%;
 	padding: .4rem;
 	background: #3333ff;
@@ -392,7 +392,7 @@ a {
 	opacity: 0;
 }
 
-.amount-container-item-input.active {
+.amount-container-item-input-popup.active {
 	animation: aparicion .5s ease 1.3s forwards;
 }
 
